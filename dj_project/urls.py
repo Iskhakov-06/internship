@@ -25,6 +25,6 @@ urlpatterns = [
     path('test_2/', include('test_2.urls')),
     path('test_3/', include('test_3.urls')),
 
-    path('', lambda request: HttpResponseRedirect('/test_1/view1'))
+    path('', lambda request: HttpResponseRedirect('/test_1/view1')) # переадресация с главной страницы
 
 ]
